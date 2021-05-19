@@ -61,4 +61,32 @@ $(document).ready(function(){
     }, function(){
     $(this).css("background-color", "white");
   });
+
+
+
+
+  $("#p1").mouseenter(function(){
+    $('#p1 p ').slideDown("slow");
+  });
+  $("#p1").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "white");
+  });
+  $("#p2").mouseenter(function(){
+    $('#p2 p ').slideDown("slow");
+  });
+  $("#p2").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "white");
+  });
+  $("#p3").mouseenter(function(){
+    $('#p3 p ').slideDown("slow");
+  });
+  $("#p3").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "white");
+  });
 });
