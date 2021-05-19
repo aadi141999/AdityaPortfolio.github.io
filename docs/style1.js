@@ -62,6 +62,16 @@ $(document).ready(function(){
     $(this).css("background-color", "white");
   });
 
+  $("#card1").mouseleave(function(){
+    $('#card1 p ').slideUp("slow")
+  });
+  $("#card2").mouseleave(function(){
+    $('#card2 p ').slideUp("slow")
+  });
+  $("#card3").mouseleave(function(){
+    $('#card3 p ').slideUp("slow")
+  });
+  
 
 
 
@@ -88,5 +98,14 @@ $(document).ready(function(){
     $(this).css("background-color", "yellow");
     }, function(){
     $(this).css("background-color", "white");
+  });
+  $("#p1").mouseleave(function(){
+    $('#p1 p ').slideUp("slow")
+  });
+  $("#p2").mouseleave(function(){
+    $('#p2 p ').slideUp("slow")
+  });
+  $("#p3").mouseleave(function(){
+    $('#p3 p ').slideUp("slow")
   });
 });
