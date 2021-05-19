@@ -25,7 +25,7 @@ $(document).ready(function(){
     var scrollTop = $(this).scrollTop();
     
     $('.default-block').hide();
-      if( scrollTop > 900 ){
+      if( scrollTop > 700 ){
         $('#abc').slideDown("slow");
        
       } 
