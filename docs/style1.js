@@ -19,7 +19,9 @@ var typed2=new Typed('.typing2',{
     backSpeed:100,
     loop:true
 });
-$(window).scroll(function (){
+
+$(document).ready(function(){
+  $(window).scroll(function (){
     var scrollTop = $(this).scrollTop();
     
     $('.default-block').hide();
@@ -33,4 +35,30 @@ $(window).scroll(function (){
       } 
      
       
+});
+
+  $("#card1").mouseenter(function(){
+    $('#card1 p ').slideDown("slow");
+  });
+  $("#card1").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "white");
+  });
+  $("#card2").mouseenter(function(){
+    $('#card2 p ').slideDown("slow");
+  });
+  $("#card2").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "white");
+  });
+  $("#card3").mouseenter(function(){
+    $('#card3 p ').slideDown("slow");
+  });
+  $("#card3").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "white");
+  });
 });

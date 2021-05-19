@@ -10,7 +10,7 @@
    
 .section1{
     position: relative;
-    background-image: url("img/adi3.jpg");
+    background-image: url("img/adi5.svg");
     
     padding-bottom: 50px;
     
@@ -19,7 +19,7 @@
 }
 .name {
     padding-top: 200px;
-    color: black;
+    color: white;
 }
 
 .red {
@@ -50,14 +50,13 @@
     font-size: 25px;
     font-weight: 800;
 }
-/*
+
 #abc{
     display: none;
 }
 #xyz{
     display: none;
 }
-*/
 
 .section2 p{
     font-size: 20px;
@@ -130,6 +129,16 @@
 .section5 .card{
     border-radius: 10px !important;
     padding: 10px;
+}
+
+#card1 p{
+    display: none;
+}
+#card2 p{
+    display: none;
+}
+#card3 p{
+    display: none;
 }
 footer{
     background-color: black;
